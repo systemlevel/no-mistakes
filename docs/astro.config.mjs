@@ -10,11 +10,11 @@ export default defineConfig({
     starlight({
       title: "git push no-mistakes",
       customCss: ["./src/styles/custom.css"],
-      social: {
-        github: "https://github.com/kunchenguid/no-mistakes",
-        discord: "https://discord.gg/Wsy2NpnZDu",
-        "x.com": "https://x.com/kunchenguid",
-      },
+      social: [
+        { icon: "github", label: "GitHub", href: "https://github.com/kunchenguid/no-mistakes" },
+        { icon: "discord", label: "Discord", href: "https://discord.gg/Wsy2NpnZDu" },
+        { icon: "x.com", label: "X", href: "https://x.com/kunchenguid" },
+      ],
       sidebar: [
         {
           label: "Start Here",
